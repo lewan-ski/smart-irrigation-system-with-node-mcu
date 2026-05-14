@@ -38,7 +38,10 @@ This project automates watering based on soil moisture readings and provides a m
    ```bash
    git clone https://github.com/lewan-ski/smart-irrigation-system-with-node-mcu.git
 
-## IMPORTANT
-char auth[] = "YourAuthToken";
-char ssid[] = "YourWiFiSSID";
-char pass[] = "YourWiFiPassword";
+## ⚠️ IMPORTANT
+Before uploading the code to your NodeMCU, update the following values with your own Blynk Auth Token and Wi-Fi credentials:
+
+```cpp
+char auth[] = "YourAuthToken";   // Replace with your Blynk Auth Token
+char ssid[] = "YourWiFiSSID";    // Replace with your Wi-Fi SSID
+char pass[] = "YourWiFiPassword"; // Replace with your Wi-Fi password
